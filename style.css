@@ -40,6 +40,7 @@ li {
 li a {
   text-decoration: none;
   color: #999;
+  font-size: 17px;
 }
 
 .yellow {
@@ -76,11 +77,10 @@ li a {
   clear: both;
 }
 
-.opacity{
-background-color: rgba(0, 0, 0, 0.2);
-height: 400px;
-width: 100%;
-
+.opacity {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 400px;
+  width: 100%;
 }
 
 .img-1 {

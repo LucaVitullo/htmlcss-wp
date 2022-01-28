@@ -6,40 +6,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Layout</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="cont-main-layout">
       <header>
         <div class="logo">
-          <div class="img-logo">
-            <img src="/img/logo.png" alt="" />
-          </div>
-          <nav>
-            <ul>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Editorial</a></li>
-              <li><a href="#">Environment</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </nav>
+          <img src="img/logo.png" alt="" />
         </div>
+
+        <!--inizio navbar-->
+        <nav>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Editorial</a></li>
+            <li><a href="#">Environment</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <!--/navbar-->
       </header>
       <main>
         <div class="yellow">
-          <div class="img-banner"></div>
-        </div>
-        <div class="blue">
-          <div class="content-headline"></div>
-          <div class="column">
-            <div class="img-1"></div>
+          <div class="img-banner">
+            <div class="pres opacity">
+              <h1>Lorem ipsum dolor sit.</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Corporis facere perferendis temporibus, dolor amet.
+              </p>
+            </div>
           </div>
-          <div class="column"></div>
-          <div class="column"></div>
         </div>
+        <div>
+          <h1>Leadership</h1>
+          <p>Fertenum urna a libero tempus</p>
+        </div>
+        
+        <!--inizio colonne-->
+
+        <div class="blue clearfix">
+          <div class="column sx">
+            <div class="img-1 img-column"><div class="opacity"></div></div>
+          </div>
+          <div class="mid">
+            <div class="img-2 img-column"><div class="opacity"></div></div>
+          </div>
+          <div class="column dx">
+            <div class="img-3 img-column"><div class="opacity"></div></div>
+          </div>
+        </div>
+        <div class="blue clearfix">
+          <div class="column sx">
+            <h4>Lorem</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+              fuga, optio quisquam voluptates accusamus possimus, consequatur
+              voluptatem eligendi, exercitationem at adipisci ad dolorem sint.
+              Animi id saepe ut. Praesentium, natus!
+            </p>
+          </div>
+          <div class="mid">
+            <h4>Lorem</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+              fuga, optio quisquam voluptates accusamus possimus, consequatur
+              voluptatem eligendi, exercitationem at adipisci ad dolorem sint.
+              Animi id saepe ut. Praesentium, natus! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Velit fuga, optio quisquam
+              voluptates accusamus possimus, consequatur voluptatem eligendi,
+              exercitationem at adipisci ad dolorem sint. Animi id saepe ut.
+              Praesentium, natus! Lorem ipsum dolor, sit amet consectetur
+              adipisicing elit. Velit fuga, optio quisquam voluptates accusamus
+              possimus, consequatur voluptatem eligendi, exercitationem at
+              adipisci ad dolorem sint. Animi id saepe ut. Praesentium, natus!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+              fuga, optio quisquam voluptates accusamus possimus, consequatur
+              voluptatem eligendi, exercitationem at adipisci ad dolorem sint.
+              Animi id saepe ut. Praesentium, natus!
+            </p>
+          </div>
+          <div class="column dx">
+            <h4>Lorem</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
+              fuga, optio quisquam voluptates accusamus possimus, consequatur
+              voluptatem eligendi, exercitationem at adipisci ad dolorem sint.
+              Animi id saepe ut. Praesentium, natus!
+            </p>
+          </div>
+        </div>
+
+        <!--/colonne-->
+
       </main>
-      <footer></footer>
+
+      <!--footer-->
+
+      <footer>Designed with <span>&hearts;</span></footer>
+
+      <!--/footer-->
     </div>
   </body>
 </html>
